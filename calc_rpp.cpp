@@ -43,23 +43,23 @@ int main()
     std::cout << "\n" << "1.plus/2.min/3.maal/4.delen: "; std::cin >> choice;
     switch (choice)
     {
-    case 1:
-        plus();
-        break;
-        
-    case 2:
-        min();
-        break;
-        
-    case 3:
-        maal();
-        break;
-    case 4:
-        delen();
-        break;
+	    case 1:
+	        plus();
+	        break;
+	        
+	    case 2:
+	        min();
+	        break;
+	        
+	    case 3:
+	        maal();
+	        break;
+	    case 4:
+	        delen();
+	        break;
 
-    default:
-        break;
+	    default:
+	        break;
     }
     return main();
 }
